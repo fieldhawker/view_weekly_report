@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125084205-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-125084205-1');
+    </script>
+
+    <base target="_top">
+
+    <?!= HtmlService.createHtmlOutputFromFile('stylesheet').getContent(); ?>
+  </head>
+  <body>
+  
+  <div id="space">
+    <div class="msr_text_03">
+      <h1 class="msr_h103">21ポータル 1.0 Ver.KT </h1>
+    </div>
+    
+    <ul class="msr_list05">
+      <li><a href="https://script.google.com/macros/s/AKfycbxFydxWmbRQu2EnTvo6WRlGZP3IBDImr1lqo-fwQk-GaGwyThTP/exec">
+        シュウジェネ
+      </a></li>
+      <li><a href="https://script.google.com/macros/s/AKfycbwkEfyUKklzsN-05hbeyNvsp-rhyJ1ff0wjRFI6ARG-5ZiAnrM6/exec">
+        ゲツジェネ
+      </a></li>
+      <li><a href="https://script.google.com/macros/s/AKfycbx88GJuSOLsb01VVNFIxFS_tQa5vri8ghqmEcvEpBqSMwtAwNc/exec">
+        シュウォッチ
+      </a></li>
+      <li><a href="https://script.google.com/macros/s/AKfycbzKrfEnvpm47N83wKoL8fQccIwjfDyktxXr6KYiLE2pNH7v9amz/exec">
+        ゲツウォッチ
+      </a></li>
+    </ul>
+    
+
+    <div class="msr_textarea_03">
+      <div class="frame frame-red">
+        <div class="frame-title caution">
+          CAUTION
+        </div>
+        <p>
+          週報・月報は会社のメールアドレスから送信しないと提出済みと検知されないのでご注意ください。
+        </p>
+      </div>
+    </div>
+    
+  </div>
+<?!= HtmlService.createHtmlOutputFromFile('javascript').getContent(); ?>
+    <script>
+    </script>
+  </body>
+</html>
+
+
